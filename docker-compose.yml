@@ -3,7 +3,7 @@ services:
   dev-db:
     image: postgres:14
     ports:
-      - 3457:3458
+      - 5432:5434
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
